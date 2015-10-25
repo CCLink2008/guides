@@ -256,7 +256,7 @@ Action Controller 的很多功能都以中间件的形式实现。下面解释�
 
 **`ActionDispatch::Flash`**：设置 Flash 消息的键。只有设定了 `config.action_controller.session_store` 选项时才可用。
 
-**`ActionDispatch::ParamsParser`**：把请求中的参数出入 `params`。
+**`ActionDispatch::ParamsParser`**：解析传入`params`中的参数。
 
 **`ActionDispatch::Head`**：把 HEAD 请求转换成 GET 请求，并处理。
 
